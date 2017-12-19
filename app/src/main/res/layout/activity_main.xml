@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cl.demarka.uselibrery.actividad.MainActivity">
+
+    <TextView
+        android:id="@+id/tvButterKnife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libreria ButterKnife"/>
+
+
+    <Button
+        android:id="@+id/btnButterKnife"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo ButterKnife"
+
+        />
+    <TextView
+        android:id="@+id/tvPicasso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libreria Picasso"/>
+
+
+    <Button
+        android:id="@+id/btnActivityPicasso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo Picasso"
+
+        />
+
+    <TextView
+        android:id="@+id/tvGson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libreria Gson" />
+
+
+    <Button
+        android:id="@+id/btnActivityGson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo Gson"
+
+        />
+
+</LinearLayout>
